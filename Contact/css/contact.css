@@ -7,6 +7,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    background: lightgray;
 }
 .navbar{
     display: flex;
@@ -68,4 +69,94 @@ p{
     flex-basis: 30%;
     min-width: 250px;
     margin-bottom: 30px;
+}
+
+.main {
+    margin: auto;
+    width: 65%;
+}
+
+.main h1 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.fix {
+    display: flex;
+}
+
+.alinea1 {
+
+}
+
+.gmap_canvas{
+    box-shadow: 0.5px 0.5px 2px black;
+}
+
+.form {
+    display: flex;
+
+    flex-direction: column;
+    margin-top: 1rem;
+    height: 100%;
+}
+
+.form input {
+    width: 300px;
+    margin-left: 1rem;
+    padding: 2px;
+}
+
+.form label {
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.form-name {
+    position: absolute;
+    top: 59%;
+    left: 22%;
+}
+
+.form-email {
+    position: absolute;
+    top: 62%;
+    left: 22%;
+}
+
+.form-telefoon {
+    position: absolute;
+    top: 66%;
+    left: 22%;
+}
+
+.form-bericht {
+    position: absolute;
+    top: 70%;
+    left: 428px;
+}
+
+.form-btn {
+    position: absolute;
+    top: 90%;
+    left: 410px;
+    color: white;
+    font-weight: bold;
+    background: deeppink;
+    border-radius: 30px;
+    width: 80px;
+    height: 30px;
+    transition: 0.3s ease-out;
+    border: none;
+}
+
+.form-btn:hover {
+    background: #D80075;
+    cursor: pointer;
+}
+
+.copyright {
+    display: none;
 }
