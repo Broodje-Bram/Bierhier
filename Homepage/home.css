@@ -12,7 +12,7 @@
 }
 
 .Header a {
-    color: darkslateblue;
+    color: white;
     text-decoration: none;
     font-size: 24px;
     font-weight: bold;
@@ -23,7 +23,7 @@
 }
 
 .Header a:hover {
-    color: cornflowerblue;
+    color: lightcoral;
 }
 
 .Main {
