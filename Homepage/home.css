@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+.Header {
+    background-image: url("Img/header.jpg");
+    height: 20vh;
+    width: 100%;
+}
+
+.Header a {
+    color: darkslateblue;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    transition: 0.3s ease-out;
+    text-shadow: 1px 1px 3px black;
+    margin-right: 1rem;
+
+}
+
+.Header a:hover {
+    color: cornflowerblue;
+}
+
+.Main {
+    margin: 1rem;
+}
+
+.Main h1 {
+    font-weight: bold;
+}
+
+img {
+    height: 20vh;
+    width: 100%;
+}
