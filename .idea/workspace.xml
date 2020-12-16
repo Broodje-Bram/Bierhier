@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="093c5f8f-53bb-486c-a976-272645765edd" name="Default Changelist" comment="" />
+    <list default="true" id="093c5f8f-53bb-486c-a976-272645765edd" name="Default Changelist" comment="homepage">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bierhier" beforeDir="false" afterPath="$PROJECT_DIR$/Bierhier" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +21,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1lhEtqMc4LvmPANKC2qwigKxRG1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,17 +53,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608041140119</updated>
-      <workItem from="1608041141527" duration="24976000" />
+      <workItem from="1608041141527" duration="26291000" />
     </task>
+    <task id="LOCAL-00001" summary="homepage">
+      <created>1608133162122</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608133162122</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="homepage" />
+    <option name="LAST_COMMIT_MESSAGE" value="homepage" />
   </component>
   <component name="WindowStateProjectService">
     <state x="196" y="368" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608044333716">
       <screen x="0" y="25" width="1792" height="1017" />
     </state>
     <state x="196" y="368" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1792.1017@0.25.1792.1017" timestamp="1608044333716" />
+    <state x="45" y="354" key="Vcs.Push.Dialog.v2" timestamp="1608135781322">
+      <screen x="0" y="25" width="1792" height="1021" />
+    </state>
+    <state x="45" y="354" key="Vcs.Push.Dialog.v2/0.25.1792.1021@0.25.1792.1021" timestamp="1608135781322" />
+    <state x="267" y="515" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1608133117366">
+      <screen x="0" y="25" width="1792" height="1021" />
+    </state>
+    <state x="267" y="515" key="git4idea.remote.GitConfigureRemotesDialog/0.25.1792.1021@0.25.1792.1021" timestamp="1608133117366" />
   </component>
 </project>
