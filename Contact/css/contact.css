@@ -63,6 +63,26 @@ p{
     margin-top: 70px;
 
 }
+
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.title::after{
+    content: '';
+    background: deeppink;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .categories{
     margin: 70px 0;
 }
@@ -74,7 +94,6 @@ p{
 
 .main {
     margin: auto;
-    width: 65%;
 }
 
 .main h1 {
@@ -83,12 +102,23 @@ p{
     font-weight: bold;
 }
 
-.fix {
-    display: flex;
-}
 
 .gmap_canvas{
     box-shadow: 0.5px 0.5px 2px black;
+}
+
+.adresgegevens {
+    background: radial-gradient(#fff,#ffd6d6);
+    margin-top: 5%;
+    padding-bottom: 2%;
+    width: auto;
+}
+
+.titel {
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    color: #555;
 }
 
 .form {
@@ -117,33 +147,21 @@ p{
 }
 
 .form-name {
-    position: absolute;
-    top: 565px;
-    left: 22%;
     border: 1px solid black;
     border-radius: 30px;
 }
 
 .form-email {
-    position: absolute;
-    top: 605px;
-    left: 22%;
     border: 1px solid black;
     border-radius: 30px;
 }
 
 .form-telefoon {
-    position: absolute;
-    top: 645px;
-    left: 22%;
     border: 1px solid black;
     border-radius: 30px;
 }
 
 .form-bericht {
-    position: absolute;
-    top: 690px;
-    left: 428px;
     border-radius: 30px;
     text-align: center;
 }
@@ -153,9 +171,6 @@ p{
 }
 
 .form-btn {
-    position: absolute;
-    top: 90%;
-    left: 410px;
     color: white;
     font-weight: bold;
     background: deeppink;
@@ -210,12 +225,6 @@ p{
     color: black;
 }
 
-.titel {
-    position: absolute;
-    top: 25%;
-    left: 993px;
-}
-
 .alinea1 {
-    margin-left: 1rem;
+    text-align: center;
 }
