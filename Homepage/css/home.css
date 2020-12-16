@@ -5,6 +5,17 @@
     scroll-behavior: smooth;
 }
 
+.navknop{
+    display: inline-block;
+    color: black;
+    transition: 0.3s ease-out;
+}
+
+
+.navknop:hover{
+    color: deeppink;
+}
+
 body{
     font-family: 'Poppins', sans-serif;
 }
