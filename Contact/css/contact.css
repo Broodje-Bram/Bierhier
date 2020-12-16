@@ -180,18 +180,13 @@ p{
     text-decoration: none;
     font-size: 15px;
     position: fixed;
-    color: gray;
+    color: black;
     display: block;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
     padding-bottom: 1rem;
-}
-
-.Copyright a:hover {
-    color: lightgray;
-    transition: 0.1s ease-in-out;
 }
 
 .footer {

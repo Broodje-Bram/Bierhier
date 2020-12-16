@@ -127,14 +127,17 @@ p{
     display: flex;
 }
 
-.copyright {
-}
-
-.copyright p {
-    color: white;
-    margin-left: 1rem;
-    margin-top: 2rem;
+.Copyright p{
+    text-decoration: none;
+    font-size: 15px;
+    position: fixed;
+    color: black;
+    display: block;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     text-align: center;
+    padding-bottom: 1rem;
 }
 
 .footer {

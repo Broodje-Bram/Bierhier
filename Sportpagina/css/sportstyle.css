@@ -73,3 +73,33 @@ p{
     min-width: 250px;
     margin-bottom: 30px;
 }
+
+.Copyright p{
+    text-decoration: none;
+    font-size: 15px;
+    position: fixed;
+    color: black;
+    display: block;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.footer {
+    margin-top: 12%;
+    background: deeppink;
+    height: 30vh;
+}
+.footer h2 {
+    color: white;
+    margin: 1rem;
+}
+.footer h3 {
+    color: white;
+    margin-left: 1rem;
+    transition: 0.3s ease-out;
+}
+.footer h3:hover {
+    color: black;
+}
