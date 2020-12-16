@@ -103,3 +103,6 @@ p{
 .footer h3:hover {
     color: black;
 }
+.main {
+    padding: 10px;
+}
