@@ -176,14 +176,22 @@ p{
     cursor: pointer;
 }
 
-.copyright {
+.Copyright p{
+    text-decoration: none;
+    font-size: 15px;
+    position: fixed;
+    color: gray;
+    display: block;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1rem;
 }
 
-.copyright p {
-    color: white;
-    margin-left: 1rem;
-    margin-top: 2rem;
-    text-align: center;
+.Copyright a:hover {
+    color: lightgray;
+    transition: 0.1s ease-in-out;
 }
 
 .footer {
