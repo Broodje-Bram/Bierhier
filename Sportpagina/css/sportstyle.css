@@ -55,7 +55,7 @@ p{
     color: deeppink;
 }
 .header{
-    background: rgb(245,245,245);
+    background: radial-gradient(#fff,#ffd6d6);
 }
 .header .row{
     margin-top: 70px;
