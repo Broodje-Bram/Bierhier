@@ -398,16 +398,6 @@ ul{
         height: 100px;
         width: 100px;
     }
-    .slidercol-3:hover{
-        flex-grow: 2.5;
-    }
-    .slidercol-3:hover .caption{
-        display: block;
-    }
-    .slidercol-3:hover h2{
-        text-align: left;
-    }
-
 }
 
 /*media for menu less than 600 screen size*/
