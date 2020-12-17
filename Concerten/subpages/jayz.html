@@ -29,7 +29,75 @@
 </header>
 <main>
     <div class="main">
-        <h1 class="title">Concert Overzicht</h1>
+        <h1 class="title">Jay Z</h1>
+
+        <!--------- vid -------->
+
+        <div class="container-1">
+            <div class="row-1">
+                <div class="col-1">
+                    <div class="feature-img">
+                        <img src="img/rap1.png" width="100%">
+                        <img src="img/play.png" class="play-btn"
+                             onclick="playVideo('img/JAY%20Z%20-%20Before%20They%20Were%20Famous%20-%20BIOGRAPHY%20-%20UPDATED.mp4')">
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="small-img-row">
+                        <div class="small-img">
+                            <img src="img/rap2.png">
+                            <img src="img/play.png" class="play-btn"
+                                 onclick="playVideo('img/videoplayback%20(1).mp4')">
+                        </div>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tortor massa, eleifend non lectus ac, faucibus placerat ligula. Suspendisse vestibulum ex neque, elementum lacinia felis imperdiet in. Nulla vestibulum augue non ligula lacinia mattis. Sed eget magna leo. <br> </p>
+                    </div>
+                    <div class="small-img-row">
+                        <div class="small-img">
+                            <img src="img/rap3.jpg">
+                            <img src="img/play.png" class="play-btn"
+                                 onclick="playVideo('img/videoplayback.mp4')">
+
+                        </div>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tortor massa, eleifend non lectus ac, faucibus placerat ligula. Suspendisse vestibulum ex neque, elementum lacinia felis imperdiet in. Nulla vestibulum augue non ligula lacinia mattis. Sed eget magna leo. <br> </p>
+                    </div>
+                    <div class="small-img-row">
+                        <div class="small-img">
+                            <img src="img/rap4.jpg">
+                            <img src="img/play.png" class="play-btn"
+                                 onclick="playVideo('img/videoplayback%20(2).mp4')">
+                        </div>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tortor massa, eleifend non lectus ac, faucibus placerat ligula. Suspendisse vestibulum ex neque, elementum lacinia felis imperdiet in. Nulla vestibulum augue non ligula lacinia mattis. Sed eget magna leo. <br> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-player" id="videoPlayer">
+        <video width="100%" controls autoplay id="myVideo">
+            <source src="img/Ice%20Cube%20-%20Rap%20Ratz%20(Official%20Animated%20Music%20Video).1.mp4" type="video/mp4">
+        </video>
+        <img src="img/close.png" class="close-btn" onclick="stopVideo()">
+    </div>
+
+    <script>
+        var videoPlayer = document.getElementById("videoPlayer");
+        var myVideo = document.getElementById("myVideo");
+
+        function stopVideo(){
+
+            videoPlayer.style.display = "none";
+
+        }
+
+        function playVideo(file){
+            myVideo.src = file;
+            videoPlayer.style.display = "block";
+
+        }
+    </script>
+
+
 
 
 
