@@ -94,7 +94,7 @@ p{
 
 .main {
     margin: auto;
-    height: 100vh;
+
 }
 
 .main h1 {
@@ -172,4 +172,145 @@ ul{
 
 .btn:hover{
     color: deeppink;
+}
+
+h2{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+
+}
+
+.tekst {
+    color: black;
+    margin-bottom: 2rem;
+}
+
+.caption{
+    max-width: 230px;
+    font-size: 12px;
+    margin: 28px 0;
+    display: none;
+}
+
+.caption .button{
+    border: 1px solid black;
+    background: transparent;
+    outline: none;
+    padding: 8px 18px;
+    color: black;
+    border-radius: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: 0.3s ease-out;
+}
+
+.button:hover {
+    background: black;
+    color: white;
+}
+
+.slidercol-1 img{
+    width: 200px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.slidercol-1:hover{
+    flex-grow: 2.5;
+}
+.slidercol-1:hover .caption{
+    display: block;
+}
+.slidercol-1:hover h2{
+    text-align: left;
+}
+
+.slidercol-1{
+    height: 100%;
+    flex: 1;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 25px;
+    position: relative;
+    transition: 0.6s;
+}
+.slidercol-1:nth-child(1){
+    background: sandybrown;
+}
+.slidercol-1:nth-child(2){
+    background: saddlebrown;
+}
+.slidercol-1:nth-child(3){
+    background: #CB2828;
+}
+.container1{
+    width: 100%;
+    height: 500px;
+    background: #fff;
+    display: flex;
+    margin-top: 5rem;
+}
+
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+    .main p{
+        display: none;
+    }
+    .button {
+        display: block;
+    }
+    .caption {
+        display: block;
+    }
+
+    .main h1 {
+        margin-top: 5rem;
+    }
+
+}
+
+/*media for menu less than 600 screen size*/
+
+@media only screen and (max-width: 600px) {
+    .row{
+        text-align: center;
+    }
+    .col-2, .col-3{
+        flex-basis: 100%;
+    }
+}
+
+.footer h3 {
+    color: black;
 }

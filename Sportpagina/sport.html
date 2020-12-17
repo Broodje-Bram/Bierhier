@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>De Sportpagina</title>
+    <link rel="icon" href="https://musing-bartik-c070fc.netlify.app/Images/Almere-logo.png">
     <link rel="stylesheet" href="css/sportstyle.css">
+    <meta name="viewport" content="width=device-width,
+     initial-scal=1.0">
 </head>
 <body>
 
@@ -12,18 +15,19 @@
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <img src="img/Almere-logo.png" style="width:125px;" alt="Logo">
+                    <img src="img/Almere-logo1.png" width="125px">
                 </div>
                 <nav>
-                    <ul>
-                        <li><a class="btn" href="../Homepage/index.html">Home</a></li>
-                        <li><a class="btn" href="../Contact/contact.html">Contact</a></li>
-                        <li><a class="btn" href="../Over%20Ons/overons.html">Over ons</a></li>
-                        <li><a class="btn" href="../Recepten/recept.html">Receptenpagina</a></li>
-                        <li><a class="btn" href="../Concerten/concert.html">Concerten</a></li>
+                    <ul id="MenuItems">
+                        <li><a class="navknop" href="../Homepage/index.html">Home</a></li>
+                        <li><a class="navknop" href="../Contact/contact.html">Contact</a></li>
+                        <li><a class="navknop" href="../Over%20Ons/overons.html">Over ons</a></li>
+                        <li><a class="navknop" href="../Recepten/recept.html">Receptenpagina</a></li>
+                        <li><a class="navknop" href="../Concerten/concert.html">Concerten</a></li>
                     </ul>
                 </nav>
                 <img src="img/important_devices-black-18dp_1.svg" width="30px" height="30px" alt="icon">
+                <img src="img/menu.png" class="menu-icon" onclick="menutoggle()" alt="menu">
             </div>
         </div>
     </div>
@@ -35,32 +39,92 @@
         <div class="slidercol-1">
             <h2>Voetbal</h2>
             <div class="caption">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus turpis lacus, condimentum sit amet risus in, sagittis hendrerit ipsum. Integer quis bibendum dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut cursus ligula quis magna semper, at bibendum massa ultricies. Suspendisse lacinia dui vitae elit imperdiet volutpat ut at metus. Sed tempor rutrum nisi at dictum. Aliquam nisi leo, molestie eget egestas eget, vulputate sed erat. Cras ut ultricies libero, non porta tortor. Nunc sed convallis felis.
-
+                <p class="tekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus turpis lacus, condimentum sit amet risus in, sagittis hendrerit ipsum. Integer quis bibendum dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut cursus ligula quis magna semper, at bibendum massa ultricies. Suspendisse lacinia dui vitae elit imperdiet volutpat ut at metus. Sed tempor rutrum nisi at dictum. Aliquam nisi leo, molestie eget egestas eget, vulputate sed erat. Cras ut ultricies libero, non porta tortor. Nunc sed convallis felis.
                 </p>
-                <button type="button">Know More</button>
+                <a class="button" href="sub-paginas/voetbal.html" type="button">Know More</a>
             </div>
             <img src="img/Ronaldo.png">
         </div>
         <div class="slidercol-1">
             <h2>Hockey</h2>
             <div class="caption">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus turpis lacus, condimentum sit amet risus in, sagittis hendrerit ipsum. Integer quis bibendum dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut cursus ligula quis magna semper, at bibendum massa ultricies. Suspendisse lacinia dui vitae elit imperdiet volutpat ut at metus. Sed tempor rutrum nisi at dictum. Aliquam nisi leo, molestie eget egestas eget, vulputate sed erat. Cras ut ultricies libero, non porta tortor. Nunc sed convallis felis.
+                <p class="tekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus turpis lacus, condimentum sit amet risus in, sagittis hendrerit ipsum. Integer quis bibendum dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut cursus ligula quis magna semper, at bibendum massa ultricies. Suspendisse lacinia dui vitae elit imperdiet volutpat ut at metus. Sed tempor rutrum nisi at dictum. Aliquam nisi leo, molestie eget egestas eget, vulputate sed erat. Cras ut ultricies libero, non porta tortor. Nunc sed convallis felis.
                 </p>
-                <button type="button">Know More</button>
+                <a class="button" href="sub-paginas/hockey.html" type="button">Know More</a>
             </div>
             <img src="img/hockey.png">
         </div>
         <div class="slidercol-1">
-            <h2>Ice Cube</h2>
+            <h2>Rugby</h2>
             <div class="caption">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus turpis lacus, condimentum sit amet risus in, sagittis hendrerit ipsum. Integer quis bibendum dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut cursus ligula quis magna semper, at bibendum massa ultricies. Suspendisse lacinia dui vitae elit imperdiet volutpat ut at metus. Sed tempor rutrum nisi at dictum. Aliquam nisi leo, molestie eget egestas eget, vulputate sed erat. Cras ut ultricies libero, non porta tortor. Nunc sed convallis felis.
+                <p class="tekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus turpis lacus, condimentum sit amet risus in, sagittis hendrerit ipsum. Integer quis bibendum dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut cursus ligula quis magna semper, at bibendum massa ultricies. Suspendisse lacinia dui vitae elit imperdiet volutpat ut at metus. Sed tempor rutrum nisi at dictum. Aliquam nisi leo, molestie eget egestas eget, vulputate sed erat. Cras ut ultricies libero, non porta tortor. Nunc sed convallis felis.
                 </p>
-                <button type="button">Know More</button>
+                <a class="button" href="sub-paginas/rugby.html" type="button">Know More</a>
             </div>
-            <img src="img/-png-7.png">
+            <img src="img/rugby.png">
         </div>
     </div>
+
+    <div class="container2">
+        <div class="slidercol-2">
+            <h2>Zwemmen</h2>
+            <div class="caption">
+                <p class="tekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus turpis lacus, condimentum sit amet risus in, sagittis hendrerit ipsum. Integer quis bibendum dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut cursus ligula quis magna semper, at bibendum massa ultricies. Suspendisse lacinia dui vitae elit imperdiet volutpat ut at metus. Sed tempor rutrum nisi at dictum. Aliquam nisi leo, molestie eget egestas eget, vulputate sed erat. Cras ut ultricies libero, non porta tortor. Nunc sed convallis felis.
+                </p>
+                <a class="button" href="sub-paginas/zwemmen.html" type="button">Know More</a>
+            </div>
+            <img src="img/zwemmen.png">
+        </div>
+        <div class="slidercol-2">
+            <h2>Basketball</h2>
+            <div class="caption">
+                <p class="tekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus turpis lacus, condimentum sit amet risus in, sagittis hendrerit ipsum. Integer quis bibendum dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut cursus ligula quis magna semper, at bibendum massa ultricies. Suspendisse lacinia dui vitae elit imperdiet volutpat ut at metus. Sed tempor rutrum nisi at dictum. Aliquam nisi leo, molestie eget egestas eget, vulputate sed erat. Cras ut ultricies libero, non porta tortor. Nunc sed convallis felis.
+                </p>
+                <a class="button" href="sub-paginas/basketbal.html" type="button">Know More</a>
+            </div>
+            <img src="img/basketball.png">
+        </div>
+        <div class="slidercol-2">
+            <h2>Volleybal</h2>
+            <div class="caption">
+                <p class="tekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus turpis lacus, condimentum sit amet risus in, sagittis hendrerit ipsum. Integer quis bibendum dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut cursus ligula quis magna semper, at bibendum massa ultricies. Suspendisse lacinia dui vitae elit imperdiet volutpat ut at metus. Sed tempor rutrum nisi at dictum. Aliquam nisi leo, molestie eget egestas eget, vulputate sed erat. Cras ut ultricies libero, non porta tortor. Nunc sed convallis felis.
+                </p>
+                <a class="button" href="sub-paginas/volleyball.html" type="button">Know More</a>
+            </div>
+            <img src="img/volleyball.png">
+        </div>
+    </div>
+
+    <div class="container3">
+        <div class="slidercol-3">
+            <h2>Kickbox</h2>
+            <div class="caption">
+                <p class="tekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus turpis lacus, condimentum sit amet risus in, sagittis hendrerit ipsum. Integer quis bibendum dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut cursus ligula quis magna semper, at bibendum massa ultricies. Suspendisse lacinia dui vitae elit imperdiet volutpat ut at metus. Sed tempor rutrum nisi at dictum. Aliquam nisi leo, molestie eget egestas eget, vulputate sed erat. Cras ut ultricies libero, non porta tortor. Nunc sed convallis felis.
+                </p>
+                <a class="button" href="sub-paginas/kickbox.html" type="button">Know More</a>
+            </div>
+            <img src="img/kickboxing.png">
+        </div>
+        <div class="slidercol-3">
+            <h2>Bodybuilding</h2>
+            <div class="caption">
+                <p class="tekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus turpis lacus, condimentum sit amet risus in, sagittis hendrerit ipsum. Integer quis bibendum dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut cursus ligula quis magna semper, at bibendum massa ultricies. Suspendisse lacinia dui vitae elit imperdiet volutpat ut at metus. Sed tempor rutrum nisi at dictum. Aliquam nisi leo, molestie eget egestas eget, vulputate sed erat. Cras ut ultricies libero, non porta tortor. Nunc sed convallis felis.
+                </p>
+                <a class="button" href="sub-paginas/body.html" type="button">Know More</a>
+            </div>
+            <img src="img/bodybuilden.png">
+        </div>
+        <div class="slidercol-3">
+            <h2>Schermen</h2>
+            <div class="caption">
+                <p class="tekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus turpis lacus, condimentum sit amet risus in, sagittis hendrerit ipsum. Integer quis bibendum dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut cursus ligula quis magna semper, at bibendum massa ultricies. Suspendisse lacinia dui vitae elit imperdiet volutpat ut at metus. Sed tempor rutrum nisi at dictum. Aliquam nisi leo, molestie eget egestas eget, vulputate sed erat. Cras ut ultricies libero, non porta tortor. Nunc sed convallis felis.
+                </p>
+                <a class="button" href="sub-paginas/schermen.html" type="button">Know More</a>
+            </div>
+            <img src="img/schermen.png">
+        </div>
+    </div>
+
 </main>
 
 <!--Footer-->
@@ -108,5 +172,23 @@
     <hr>
     <p class="copyright">Copyright © roc-dev.com 2020</p>
 </footer>
+
+<!-------js for toggle menu-------->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function  menutoggle(){
+        if(MenuItems.style.maxHeight === "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
 </body>
 </html>
