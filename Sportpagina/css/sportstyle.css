@@ -171,6 +171,12 @@ h2{
     color: black;
 
 }
+
+.tekst {
+    color: black;
+    margin-bottom: 2rem;
+}
+
 .caption{
     max-width: 230px;
     font-size: 12px;
@@ -178,17 +184,24 @@ h2{
     display: none;
 }
 
-.caption button{
-    border: 1px solid #fff;
+.caption .button{
+    border: 1px solid black;
     background: transparent;
     outline: none;
     padding: 8px 18px;
-    color: #fff;
+    color: black;
     border-radius: 30px;
     margin-top: 20px;
     cursor: pointer;
     font-size: 12px;
+    transition: 0.3s ease-out;
 }
+
+.button:hover {
+    background: black;
+    color: white;
+}
+
 .slidercol-1 img{
     width: 200px;
     position: absolute;
