@@ -93,11 +93,8 @@ p{
 }
 /*-------- pagina zelf ------*/
 
-.concertfoto{
-    height: 70%;
-    width: 70%;
 
-}
+
 .meer{
     text-align: left;
 }
@@ -113,7 +110,7 @@ p{
 .main {
     margin: auto;
     width: 70%;
-    height: 100vh;
+
 
 }
 
@@ -126,12 +123,43 @@ p{
 
 /*--Tabel--*/
 
-.tabel {
-    float: right;
-    border: 1px solid black;
+.table-box{
+    margin: 50px auto;
 }
-
-.tabel td {
+.table-row{
+    display: table;
+    width: 80%;
+    margin: 10px auto;
+    font-family: Sans-serif;
+    background: transparent;
+    padding: 12px 0;
+    color: #555;
+    font-size: 13px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,50,0.3);
+}
+.table-cell{
+    display: table-cell;
+    width: 30%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 1px solid #d6d4d4;
+    vertical-align: middle;
+}
+.table-head{
+    background: deeppink;
+    box-shadow: 0 1px 4px 0 rgba(0,0,50,0.3);
+    color: #fff;
+    font-weight: 600;
+}
+.table-head .table-cell{
+    border-right: none;
+}
+.last-cell{
+    border-right: none;
+}
+.first-cell{
+    text-align: left;
+    padding-left: 10px;
 }
 
 
