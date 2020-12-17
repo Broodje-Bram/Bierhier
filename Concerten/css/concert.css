@@ -260,3 +260,13 @@ ul{
     margin-left: 20px;
     display: none;
 }
+.btn{
+    display: inline-block;
+    color: black;
+    transition: 0.3s ease-out;
+}
+
+
+.btn:hover{
+    color: deeppink;
+}
