@@ -91,6 +91,24 @@ p{
     min-width: 250px;
     margin-bottom: 30px;
 }
+/*-------- pagina zelf ------*/
+
+.concertfoto{
+    height: 70%;
+    width: 70%;
+
+}
+.meer{
+    text-align: left;
+}
+
+.list{
+    position: absolute;
+    left: 60%;
+    top: 40%;
+}
+
+
 
 .main {
     margin: auto;
@@ -176,90 +194,4 @@ ul{
     width: 28px;
     margin-left: 20px;
     display: none;
-}
-/*-------- pagina zelf ------*/
-
-.concertfoto{
-    height: 45%;
-    width: 45%;
-}
-
-.list{
-    position: absolute;
-    left: 60%;
-    top: 40%;
-
-}
-.container22{
-    width: 1000px;
-    height: 400px;
-    background: #ccc;
-    margin: 120px auto;
-    display: flex;
-}
-.container22 p{
-    color: white;
-}
-.col22{
-    height: 100%;
-    flex: 1;
-    color: #fff;
-    box-sizing: border-box;
-    padding: 25px;
-    position: relative;
-    transition: 0.6s;
-}
-.col22:nth-child(1){
-    background: #283491;
-}
-.col22:nth-child(2){
-    background: darkgreen;
-}
-.col22:nth-child(3){
-    background: #6ee2f1;
-}
-.container22 h2{
-    text-align: center;
-    font-size: 22px;
-    font-weight: 600;
-}
-.caption22{
-    max-width: 230px;
-    font-size: 12px;
-    margin: 28px 0;
-    display: none;
-}
-.button22{
-    border: 1px solid #fff;
-    background: transparent;
-    outline: none;
-    padding: 8px 18px;
-    color: #fff;
-    border-radius: 30px;
-    margin-top: 20px;
-    cursor: pointer;
-    font-size: 12px;
-}
-.col22 img{
-    width: 200px;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
-.col22:hover{
-    flex-grow: 2.5;
-}
-.col22:hover .caption{
-    display: block;
-}
-.col22:hover h2{
-    text-align: left;
-}
-
-.container22 .button22{
-
-}
-
-.p22p {
-    color: white;
 }
