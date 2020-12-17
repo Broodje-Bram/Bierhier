@@ -318,7 +318,11 @@
         var content = document.getElementById("wrapper");
 
         function darkmode() {
-            content.style.filter = "invert(100%)";
+            if (content.style.filter === "invert(0%)") {
+                content.style.filter = "invert(100%)";
+            } else {
+                content.style.filter = "invert(0%)";
+            }
         }
 
 
