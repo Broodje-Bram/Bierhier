@@ -21,6 +21,7 @@
                 </div>
                 <nav>
                     <ul id="MenuItems">
+                        <img src="img/cross.png" class="cross" id="cross" onclick="menutoggle()" alt="cancel">
                         <li><a class="btn" href="../Homepage/index.html">Home</a></li>
                         <li><a class="btn" href="../Over%20Ons/overons.html">Over ons</a></li>
                         <li><a class="btn" href="../Sportpagina/sport.html">Sportpagina</a></li>
@@ -144,10 +145,13 @@
 <!-------js for toggle menu-------->
 <script>
     var MenuItems = document.getElementById("MenuItems");
+    var Cancel = document.getElementById("cross");
+
 
     MenuItems.style.maxHeight = "0px";
 
     function  menutoggle(){
+
         if(MenuItems.style.maxHeight === "0px")
         {
             MenuItems.style.maxHeight = "200px";
@@ -156,7 +160,18 @@
         {
             MenuItems.style.maxHeight = "0px";
         }
+        if(MenuItems.style.maxHeight === "200px"){
+            Cancel.style.display = "block";
+        }
     }
+
+    var content = document.getElementById("wrapper");
+
+    function darkmode() {
+        content.style.filter = "invert(100%)";
+    }
+
+
 </script>
 
 </body>

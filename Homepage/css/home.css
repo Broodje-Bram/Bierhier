@@ -279,6 +279,12 @@ ul{
     margin-left: 20px;
     display: none;
 }
+.cross {
+    display: none;
+    height: 20px;
+    width: 20px;
+}
+
 /*-------- media for menu----------*/
 
 @media only screen and (max-width: 800px) {
@@ -286,7 +292,7 @@ ul{
     nav ul{
         position: absolute;
         top: 70px;
-        left: 0;
+        right: 0;
         background: #333;
         width: 100%;
         overflow: hidden;
@@ -311,7 +317,17 @@ ul{
     .navknop {
         color: white;
     }
-
+    .cross {
+        filter: brightness(200%);
+        transition: invert 0.3s ease-out;
+        position: absolute;
+        right: 1rem;
+        top: 6%;
+    }
+    .cross:hover {
+        filter: invert(50%);
+        cursor: pointer;
+    }
 }
 
 /*media for menu less than 600 screen size*/

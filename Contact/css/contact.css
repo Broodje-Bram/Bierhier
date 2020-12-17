@@ -353,7 +353,17 @@ ul{
     .btn {
         color: white;
     }
-
+    .cross {
+        filter: brightness(200%);
+        transition: invert 0.3s ease-out;
+        position: absolute;
+        right: 1rem;
+        top: 6%;
+    }
+    .cross:hover {
+        filter: invert(50%);
+        cursor: pointer;
+    }
 }
 
 /*media for menu less than 600 screen size*/
