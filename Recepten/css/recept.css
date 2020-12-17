@@ -330,6 +330,9 @@ h2{
     }
     .container1{
         width: auto;
+        margin: auto;
+        height: 20%;
+        display: block;
     }
 }
 
