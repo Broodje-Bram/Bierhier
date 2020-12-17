@@ -112,7 +112,7 @@ p{
     margin-top: 5%;
     padding-bottom: 2%;
     width: auto;
-    height: 40vh;
+    height: 50vh;
 }
 
 .alinea1 {
@@ -277,6 +277,100 @@ ul{
     width: 28px;
     margin-left: 20px;
     display: none;
+}
+
+.mapouter2, #gmap_canvas2, .gmap_canvas2 {
+    display: none;
+}
+/*-------- media for menu----------*/
+
+@media only screen and (max-width: 800px) {
+
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .menu-icon{
+        cursor: pointer;
+        display: block;
+    }
+
+    .main {
+        height: 110vh;
+    }
+    .adresgegevens {
+        height: 80vh;
+    }
+
+    .gmap_canvas {
+        border: none;
+        display: none;
+    }
+
+    .mapouter {
+        display: none;
+    }
+
+    #gmap_canvas {
+        display: none;
+    }
+
+    html {
+        overflow-x: hidden;
+    }
+
+    .gmap_canvas2 {
+        display: block;
+        width: auto;
+    }
+
+    .mapouter2 {
+        display: block;
+        width: auto;
+    }
+
+    #gmap_canvas2 {
+        display: block;
+        width: auto;
+    }
+
+}
+
+/*media for menu less than 600 screen size*/
+
+@media only screen and (max-width: 600px) {
+    .row{
+        text-align: center;
+    }
+    .col-2, .col-3{
+        flex-basis: 100%;
+    }
+    .main {
+        height: 110vh;
+    }
+    .adresgegevens {
+        height: 100vh;
+    }
+}
+
+.footer h3 {
+    color: black;
+
+
 }
 
 
