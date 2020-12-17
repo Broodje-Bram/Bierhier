@@ -347,6 +347,12 @@ ul{
 .main {
     padding: 10px;
 }
+.cross {
+    display: none;
+    height: 20px;
+    width: 20px;
+}
+
 
 /*-------- media for menu----------*/
 
@@ -370,6 +376,7 @@ ul{
     nav ul li a{
         color: #fff;
     }
+
     .menu-icon{
         display: block;
         cursor: pointer;
@@ -397,6 +404,23 @@ ul{
     .slidercol-3 img {
         height: 100px;
         width: 100px;
+    }
+    .main {
+        margin-top: 5rem;
+    }
+    .navknop {
+        color: white;
+    }
+    .cross {
+        filter: brightness(200%);
+        transition: invert 0.3s ease-out;
+        position: absolute;
+        right: 1rem;
+        top: 6%;
+    }
+    .cross:hover {
+        filter: invert(50%);
+        cursor: pointer;
     }
 }
 
