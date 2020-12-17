@@ -175,7 +175,7 @@ p{
 }
 
 .slidercol-3{
-    height: 90%;
+    height: 100%;
     flex: 1;
     color: #fff;
     box-sizing: border-box;
@@ -198,7 +198,6 @@ h2{
     font-size: 22px;
     font-weight: 600;
     color: black;
-
 }
 
 .tekst {
