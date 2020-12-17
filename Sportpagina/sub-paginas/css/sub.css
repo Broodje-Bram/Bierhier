@@ -396,3 +396,13 @@ ul{
 .btn:hover{
     color: deeppink;
 }
+/*-------- media for menu----------*/
+
+@media only screen and (max-width: 800px) {
+    p {
+        display: none;
+    }
+    .small-img-row {
+        width: 150px;
+    }
+}
