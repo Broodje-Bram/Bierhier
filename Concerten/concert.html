@@ -34,52 +34,90 @@
     <div class="main">
         <h1>Concerten</h1>
     </div>
+    <!------images----->
+
+    <div>
+<img class="concertfoto" src="img/concert.jpg">
+</div>
+    <!------tabel verschillende concerten----->
+    <div>
+        <table>
+
+            <td>
+                <tr>Concert Informatie </tr>
+                <tr>Datum </tr>
+                <tr>Plaats </tr>
+
+            </td>
+        </table>
+    </div>
+
+
 </main>
 <footer>
     <!------footer----->
 
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col-1">
-                    <h3> Download Our App</h3>
-                    <p>Download App for Android and ios mobile phone.</p>
-                    <center>
+
+
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3> Download Our App</h3>
+                        <p>Download App for Android and ios mobile phone.</p>
                         <div class="app-logo">
                             <img src="img/play-store.png">
                             <img src="img/app-store.png">
                         </div>
-                    </center>
-                    <div class="footer-col-2">
-                        <img src="img/Almere-logo1.png">
-                        <p>Onze doel is om alle studenten op tijd nuttige nieuws te leveren</p>
+                        <div class="footer-col-2">
+                            <img src="img/Almere-logo1.png">
+
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
 
-        <div class="footer-col-3">
-            <h3>Handige Links</h3>
-            <ul>
-                <li>Coupons</li>
-                <li>Blog Post</li>
-                <li>Return Policy</li>
-                <li>Join Affiliate</li>
-            </ul>
+            <div class="footer-col-3">
+                <h3>Handige Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
         </div>
-        <div class="footer-col-4">
-            <h3>Follow us</h3>
-            <ul>
-                <li>Twitter</li>
-                <li>Instagram</li>
-                <li>Youtube</li>
-            </ul>
-        </div>
-    </div>
 
-    <hr>
-    <p class="copyright">Copyright © roc-dev.com 2020</p>
+        <hr>
+        <p class="copyright">Copyright © roc-dev.com 2020</p>
+
+        <!-------js for toggle menu-------->
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+
+            MenuItems.style.maxHeight = "0px";
+
+            function  menutoggle(){
+                if(MenuItems.style.maxHeight === "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+                else
+                {
+                    MenuItems.style.maxHeight = "0px";
+                }
+            }
+        </script>
 </footer>
 </body>
 </html>
