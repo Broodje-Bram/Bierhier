@@ -382,6 +382,7 @@ ul{
     }
     .tekst {
         font-size: 7px;
+        display: none;
     }
     h2 {
         font-size: 10px;
