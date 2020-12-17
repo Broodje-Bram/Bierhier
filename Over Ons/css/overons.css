@@ -247,6 +247,10 @@ ul{
         display: block;
     }
 
+    .main {
+        height: 220vh;
+    }
+
 }
 
 /*media for menu less than 600 screen size*/
@@ -258,12 +262,15 @@ ul{
     .col-2, .col-3{
         flex-basis: 100%;
     }
+    .main {
+        height: 220vh;
+    }
 }
 
 .footer h3 {
     color: black;
+
+
 }
 
-.main {
-    height: 220vh;
-}
+
