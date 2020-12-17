@@ -328,6 +328,9 @@ h2{
         filter: invert(50%);
         cursor: pointer;
     }
+    .container1{
+        width: auto;
+    }
 }
 
 /*media for menu less than 600 screen size*/
