@@ -2,9 +2,162 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Kickbox</title>
+    <title>Kickboxen</title>
+    <link rel="stylesheet" href="css/sub.css">
+    <link rel="icon" href="https://musing-bartik-c070fc.netlify.app/Images/Almere-logo.png">
+    <meta name="viewport" content="width=device-width,
+     initial-scal=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
 </head>
 <body>
+<header>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="../../Homepage/index.html"><img src="img/Almere-logo.png" style="width:125px;"></a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a class="btn" href="../sport.html">Back</a></li>
+                    </ul>
+                </nav>
+                <img src="img/important_devices-black-18dp_1.svg" style="width:30px; height:30px;">
+                <img src="img/menu.png" class="menu-icon" onclick="menutoggle()" alt="menu">
+            </div>
+        </div>
+    </div>
 
+</header>
+<main>
+    <div class="main">
+        <h1 class="title">Kickboxen</h1>
+    </div>
+
+    <!--------- vid ---------->
+
+    <div class="container-1">
+        <div class="row-1">
+            <div class="col-1">
+                <div class="feature-img">
+                    <img src="img/kickboxen1.jpg" width="100%">
+                    <img src="img/play.png" class="play-btn"
+                         onclick="playVideo('img/kickbox1.mp4')">
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="small-img-row">
+                    <div class="small-img">
+                        <img src="img/kickboxen2.jpg">
+                        <img src="img/play.png" class="play-btn"
+                             onclick="playVideo('img/kickbox2.mp4')">
+                    </div>
+                    <p>Kickbox techniques </p>
+                </div>
+                <div class="small-img-row">
+                    <div class="small-img">
+                        <img src="img/kickboxen3.jpg">
+                        <img src="img/play.png" class="play-btn"
+                             onclick="playVideo('img/kickbox3.mp4')">
+                    </div>
+                    <p>15 beste Kickbox knockouts</p>
+                </div>
+                <div class="small-img-row">
+                    <div class="small-img">
+                        <img src="img/kickboxen4.jpg">
+                        <img src="img/play.png" class="play-btn"
+                             onclick="playVideo('img/kickbox4.mp4')">
+                    </div>
+                    <p>Kickbox motivation</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="video-player" id="videoPlayer">
+        <video width="100%" controls autoplay id="myVideo">
+            <source src="img/eyeofthetiger.mp3" type="video/mp4">
+        </video>
+        <img src="img/close.png" class="close-btn" onclick="stopVideo()">
+    </div>
+</main>
+
+
+<!------footer----->
+
+<footer>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3> Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <center>
+                            <img src="img/play-store.png">
+                            <img src="img/app-store.png">
+                        </center>
+                    </div>
+                    <div class="footer-col-2">
+                        <a href="../../Homepage/index.html"><img src="img/Almere-logo.png"></a>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Handige Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <p class="copyright">Copyright © roc-dev.com 2020</p>
+
+    <!-------js for toggle menu-------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        var videoPlayer = document.getElementById("videoPlayer");
+        var myVideo = document.getElementById("myVideo");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function  menutoggle(){
+            if(MenuItems.style.maxHeight === "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+        function stopVideo(){
+            videoPlayer.style.display = "none";
+        }
+
+        function playVideo(file){
+            myVideo.src = file;
+            videoPlayer.style.display = "block";
+
+        }
+    </script>
+</footer>
 </body>
 </html>
