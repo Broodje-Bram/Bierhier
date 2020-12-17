@@ -376,16 +376,10 @@ ul{
         cursor: pointer;
     }
     .caption .button {
-        font-size: 8px;
-        width: 5px;
-        height: 5px;
+        font-size: 10px;
     }
     .tekst {
-        font-size: 7px;
-    }
-    h2 {
-        font-size: 10px;
-        font-weight: bold;
+        display: none;
     }
     .slidercol-1 img {
         height: 100px;
