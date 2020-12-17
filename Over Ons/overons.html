@@ -12,6 +12,7 @@
     </style>
 </head>
 <body>
+<div id="wrapper">
 <header>
     <div class="header">
         <div class="container">
@@ -29,7 +30,7 @@
                         <li><a class="btn" href="../Concerten/concert.html">Concerten</a></li>
                     </ul>
                 </nav>
-                <img src="img/important_devices-black-18dp_1.svg" style="width:30px; height:30px;">
+                <img src="img/important_devices-black-18dp_1.svg" class="icon-ding" width="30px" height="30px" alt="icon" onclick="darkmode()">
                 <img src="img/menu.png" class="menu-icon" onclick="menutoggle()" alt="menu">
             </div>
         </div>
@@ -146,11 +147,15 @@
     var content = document.getElementById("wrapper");
 
     function darkmode() {
-        content.style.filter = "invert(100%)";
+        if (content.style.filter === "invert(100%)") {
+            content.style.filter = "invert(0%)";
+        } else {
+            content.style.filter = "invert(100%)";
+        }
     }
 
 
 </script>
-
+</div>
 </body>
 </html>
