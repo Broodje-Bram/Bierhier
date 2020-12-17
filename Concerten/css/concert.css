@@ -315,6 +315,11 @@ ul{
 .btn:hover{
     color: deeppink;
 }
+.cross {
+    display: none;
+    height: 20px;
+    width: 20px;
+}
 /*-------- media for menu----------*/
 
 @media only screen and (max-width: 800px) {

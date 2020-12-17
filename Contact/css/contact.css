@@ -282,6 +282,11 @@ ul{
 .mapouter2, #gmap_canvas2, .gmap_canvas2 {
     display: none;
 }
+.cross {
+    display: none;
+    height: 20px;
+    width: 20px;
+}
 /*-------- media for menu----------*/
 
 @media only screen and (max-width: 800px) {
