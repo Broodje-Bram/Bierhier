@@ -263,3 +263,7 @@ ul{
 .footer h3 {
     color: black;
 }
+
+.main {
+    height: 220vh;
+}
