@@ -87,22 +87,28 @@ p{
 
 
 .container1{
-    width: 1100px;
+    width: 99.5%;
     height: 500px;
     background: #fff;
     display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .container2{
-    width: 1100px;
+    width: 99.5%;
     height: 500px;
     background: #fff;
     display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .container3{
-    width: 1100px;
+    width: 99.5%;
     height: 500px;
     background: #fff;
     display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .slidercol-1{
     height: 100%;
@@ -112,7 +118,6 @@ p{
     padding: 25px;
     position: relative;
     transition: 0.6s;
-    margin-left: 5px;
 }
 .slidercol-1:nth-child(1){
     background: #283491;
@@ -132,7 +137,6 @@ p{
     padding: 25px;
     position: relative;
     transition: 0.6s;
-    margin-left: 5px;
 }
 .slidercol-2:nth-child(1){
     background: #6ee2f1;
@@ -152,7 +156,6 @@ p{
     padding: 25px;
     position: relative;
     transition: 0.6s;
-    margin-left: 5px;
 }
 .slidercol-3:nth-child(1){
     background: wheat;
