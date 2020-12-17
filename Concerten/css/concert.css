@@ -91,6 +91,24 @@ p{
     min-width: 250px;
     margin-bottom: 30px;
 }
+/*-------- pagina zelf ------*/
+
+.concertfoto{
+    height: 70%;
+    width: 70%;
+
+}
+.meer{
+    text-align: left;
+}
+
+.list{
+    position: absolute;
+    left: 60%;
+    top: 40%;
+}
+
+
 
 .main {
     margin: auto;
@@ -176,17 +194,4 @@ ul{
     width: 28px;
     margin-left: 20px;
     display: none;
-}
-/*-------- pagina zelf ------*/
-
-.concertfoto{
-    height: 45%;
-    width: 45%;
-}
-
-.list{
-    position: absolute;
-    left: 60%;
-    top: 40%;
-
 }
