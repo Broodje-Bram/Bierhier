@@ -305,6 +305,12 @@ ul{
         display: block;
         cursor: pointer;
     }
+    .navknop#home {
+        display: none;
+    }
+    .navknop {
+        color: white;
+    }
 
 }
 

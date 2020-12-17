@@ -347,6 +347,12 @@ ul{
         display: block;
         width: auto;
     }
+    .main{
+        margin-top: 5rem;
+    }
+    .btn {
+        color: white;
+    }
 
 }
 

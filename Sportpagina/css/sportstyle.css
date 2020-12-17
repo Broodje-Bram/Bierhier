@@ -370,6 +370,7 @@ ul{
     nav ul li a{
         color: #fff;
     }
+
     .menu-icon{
         display: block;
         cursor: pointer;
@@ -398,6 +399,13 @@ ul{
         height: 100px;
         width: 100px;
     }
+    .main {
+        margin-top: 5rem;
+    }
+    .navknop {
+        color: white;
+    }
+
 }
 
 /*media for menu less than 600 screen size*/
