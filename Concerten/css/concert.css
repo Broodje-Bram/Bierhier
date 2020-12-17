@@ -94,6 +94,8 @@ p{
 
 .main {
     margin: auto;
+    width: 70%;
+    height: 100vh;
 
 }
 
@@ -103,6 +105,17 @@ p{
     font-weight: bold;
     text-align: center;
 }
+
+/*--Tabel--*/
+
+.tabel {
+    float: right;
+    border: 1px solid black;
+}
+
+.tabel td {
+}
+
 /*-------- footer ------*/
 
 
