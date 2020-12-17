@@ -33,17 +33,94 @@
 <main>
     <div class="main">
         <h1 class="title">Snoop Dogg</h1>
+        <!---------vid---------->
+        <div class="container-1">
+            <div class="row-1">
+                <div class="col-1">
+                    <div class="feature-img">
+                        <img src="img/snoop2.png" width="100%">
+                        <img src="img/play.png" class="play-btn"
+                             onclick="playVideo('img/SNOOP%20DOGG%20_%20Before%20They%20Were%20Famous%20_%20Biography.mp4')">
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="small-img-row">
+                        <div class="small-img">
+                            <img src="img/snoop1.png">
+                            <img src="img/play.png" class="play-btn"
+                                 onclick="playVideo('img/Snoop%20Doggs%20Wildest%20Night%20in%20a%20Famous%20Mansion%20_%20PARTY%20LEGENDS.1.mp4')">
+                        </div>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tortor massa, eleifend non lectus ac, faucibus placerat ligula. Suspendisse vestibulum ex neque, elementum lacinia felis imperdiet in.<br></p>
+                    </div>
+                    <div class="small-img-row">
+                        <div class="small-img">
+                            <img src="img/snoop3.png">
+                            <img src="img/play.png" class="play-btn"
+                                 onclick="playVideo('img/Snoop%20Throwback%20Freestyle%201992.mp4')">
 
-
-
-
-
-
-
-
-
-
+                        </div>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tortor massa, eleifend non lectus ac, faucibus placerat ligula. Suspendisse vestibulum ex neque, elementum lacinia felis imperdiet in.<br> </p>
+                    </div>
+                    <div class="small-img-row">
+                        <div class="small-img">
+                            <img src="img/snoop4.png">
+                            <img src="img/play.png" class="play-btn"
+                                 onclick="playVideo('img/snoopdog6.mp4')">
+                        </div>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tortor massa, eleifend non lectus ac, faucibus placerat ligula. Suspendisse vestibulum ex neque, elementum lacinia felis imperdiet in.<br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <div class="video-player" id="videoPlayer">
+        <video width="100%" controls autoplay id="myVideo">
+            <source src="img/Ice%20Cube%20-%20Rap%20Ratz%20(Official%20Animated%20Music%20Video).1.mp4" type="video/mp4">
+        </video>
+        <img src="img/close.png" class="close-btn" onclick="stopVideo()">
+    </div>
+
+    <script>
+        var videoPlayer = document.getElementById("videoPlayer");
+        var myVideo = document.getElementById("myVideo");
+
+        function stopVideo(){
+
+            videoPlayer.style.display = "none";
+
+        }
+
+        function playVideo(file){
+            myVideo.src = file;
+            videoPlayer.style.display = "block";
+
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
 </main>
 
 
