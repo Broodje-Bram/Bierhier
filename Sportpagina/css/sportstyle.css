@@ -119,28 +119,22 @@ p{
 
 
 .container1{
-    width: 99.5%;
+    width: 100%;
     height: 500px;
     background: #fff;
     display: flex;
-    margin-left: 5px;
-    margin-right: 5px;
 }
 .container2{
-    width: 99.5%;
+    width: 100%;
     height: 500px;
     background: #fff;
     display: flex;
-    margin-left: 5px;
-    margin-right: 5px;
 }
 .container3{
-    width: 99.5%;
+    width: 100%;
     height: 500px;
     background: #fff;
     display: flex;
-    margin-left: 5px;
-    margin-right: 5px;
 }
 .slidercol-1{
     height: 100%;
