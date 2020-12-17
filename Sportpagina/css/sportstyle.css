@@ -374,6 +374,11 @@ ul{
         display: block;
         cursor: pointer;
     }
+    .caption .button {
+        font-size: 8px;
+        width: 5px;
+        height: 5px;
+    }
     .tekst {
         font-size: 7px;
     }
@@ -402,10 +407,7 @@ ul{
     .slidercol-3:hover h2{
         text-align: left;
     }
-    .button {
-        font-size: 8px;
-        padding: 4px 8px;
-    }
+
 }
 
 /*media for menu less than 600 screen size*/
