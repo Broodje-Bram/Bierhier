@@ -375,7 +375,7 @@ ul{
         cursor: pointer;
     }
     .tekst {
-        font-size: 8px;
+        font-size: 7px;
     }
     h2 {
         font-size: 10px;
@@ -401,6 +401,10 @@ ul{
     }
     .slidercol-3:hover h2{
         text-align: left;
+    }
+    .button {
+        font-size: 8px;
+        padding: 4px 8px;
     }
 }
 
