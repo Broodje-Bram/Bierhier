@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-
+<div id="wrapper">
 <div class="header">
     <div class="container">
         <div class="navbar">
@@ -28,7 +28,7 @@
                     <li><a class="navknop" href="../Concerten/concert.html">Concerten</a></li>
                 </ul>
             </nav>
-            <img src="img/important_devices-black-18dp_1.svg" width="30px" height="30px" alt="icon">
+            <img src="img/important_devices-black-18dp_1.svg" class="icon-ding" width="30px" height="30px" alt="icon" onclick="darkmode()">
             <img src="img/menu.png" class="menu-icon" onclick="menutoggle()" alt="menu">
         </div>
 
@@ -305,10 +305,19 @@
                 MenuItems.style.maxHeight = "0px";
             }
         }
+
+        var content = document.getElementById("wrapper");
+
+        function darkmode() {
+            content.style.filter = "invert(100%)";
+        }
+
+
     </script>
 
 
 
 </section>
+</div>
 </body>
 </html>
