@@ -29,21 +29,89 @@
             </div>
         </div>
     </div>
+
 </header>
 <main>
     <div class="main">
-        <h1 class="title">Concert Overzicht</h1>
-
-
-
-
-
-
-
-
-
-
+        <h1 class="title">IceCube</h1>
     </div>
+
+<!--------- vid ---------->
+
+        <div class="container-1">
+            <div class="row-1">
+                <div class="col-1">
+                    <div class="feature-img">
+                        <img src="img/icecube.png" width="100%">
+                        <img src="img/play.png" class="play-btn"
+                        onclick="playVideo('img/Ice%20Cube%20-%20Rap%20Ratz%20(Official%20Animated%20Music%20Video).1.mp4')">
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="small-img-row">
+                    <div class="small-img">
+                        <img src="img/icecube1.jpg">
+                        <img src="img/play.png" class="play-btn"
+                       onclick="playVideo('img/ICE%20CUBE%20-%20Before%20They%20Were%20Famous%20-%20BIOGRAPHY.mp4')">
+                    </div>
+                        <p> IceCube's story in 10 sec to know him<br> als een persoon</p>
+                    </div>
+                    <div class="small-img-row">
+                        <div class="small-img">
+                            <img src="img/icecube5.jpg">
+                            <img src="img/play.png" class="play-btn"
+                            onclick="playVideo('img/Ice%20Cube%20Answers%20The%20Web’s%20Most%20Searched%20Questions%20_%20WIRED.mp4')">
+
+                        </div>
+                        <p> IceCube's story in 10 sec to know him<br> als een persoon</p>
+                    </div>
+                    <div class="small-img-row">
+                        <div class="small-img">
+                            <img src="img/icecube3.jpg">
+                            <img src="img/play.png" class="play-btn"
+                            onclick="playVideo('img/Ice%20Cube%20Tells%20The%20Real%20Story%20Behind%20N.W.A’s%20“Fuck%20tha%20Police”%20_%20Genius%20News.mp4')">
+                        </div>
+                        <p> IceCube's story in 10 sec to know him<br> als een persoon</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-player" id="videoPlayer">
+        <video width="100%" controls autoplay id="myVideo">
+            <source src="img/Ice%20Cube%20-%20Rap%20Ratz%20(Official%20Animated%20Music%20Video).1.mp4" type="video/mp4">
+        </video>
+        <img src="img/close.png" class="close-btn" onclick="stopVideo()">
+    </div>
+
+<script>
+    var videoPlayer = document.getElementById("videoPlayer");
+    var myVideo = document.getElementById("myVideo");
+
+    function stopVideo(){
+
+        videoPlayer.style.display = "none";
+
+    }
+
+    function playVideo(file){
+        myVideo.src = file;
+        videoPlayer.style.display = "block";
+
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
 </main>
 
 
@@ -64,11 +132,12 @@
                 </div>
                 <div class="footer-col-2">
                     <img src="img/Almere-logo1.png">
-
+                </div>
                 </div>
             </div>
         </div>
     </div>
+
 
 
     <div class="footer-col-3">
@@ -88,7 +157,8 @@
             <li>Youtube</li>
         </ul>
     </div>
-</div>
+
+
 
 <hr>
 <p class="copyright">Copyright © roc-dev.com 2020</p>
