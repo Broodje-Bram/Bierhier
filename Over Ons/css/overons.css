@@ -222,6 +222,12 @@ ul{
 }
 /*-------- media for menu----------*/
 
+@media only screen and (max-width: 900px) {
+    .main {
+        height: 120vh;
+    }
+}
+
 @media only screen and (max-width: 800px) {
 
     nav ul{
@@ -252,7 +258,11 @@ ul{
     }
 
 }
-
+@media only screen and (max-width: 700px) {
+    .main {
+        height: 220vh;
+    }
+}
 /*media for menu less than 600 screen size*/
 
 @media only screen and (max-width: 600px) {
