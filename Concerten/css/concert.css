@@ -130,7 +130,7 @@ p{
     display: table;
     width: 80%;
     margin: 10px auto;
-    font-family: Sans-serif;
+    font-family: Poppins, sans-serif;
     background: transparent;
     padding: 12px 0;
     color: #555;
@@ -151,6 +151,11 @@ p{
     color: #fff;
     font-weight: 600;
 }
+.table-head p {
+    font-family: Poppins, sans-serif;
+    color: white;
+    font-weight: bold;
+}
 .table-head .table-cell{
     border-right: none;
 }
@@ -164,8 +169,8 @@ p{
 
 
 .container1{
-    width: 1000px;
-    height: 400px;
+    width: 1200px;
+    height: 500px;
     background: #fff;
     margin: 120px auto;
     display: flex;
@@ -200,7 +205,12 @@ h2{
     display: none;
 }
 
-.caption button{
+.tekst {
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.caption .button{
     border: 1px solid #fff;
     background: transparent;
     outline: none;
@@ -210,6 +220,12 @@ h2{
     margin-top: 20px;
     cursor: pointer;
     font-size: 12px;
+    transition: 0.3s ease-out;
+}
+
+.button:hover {
+    background: white;
+    color: black;
 }
 .slidercol-1 img{
     width: 200px;
