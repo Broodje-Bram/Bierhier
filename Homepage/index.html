@@ -2,39 +2,309 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+     initial-scal=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="css/home.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<header>
-    <div class="Header">
-        <nav>
 
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="img/Almere-logo1.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a class="navknop" href="../Homepage/index.html">Home</a></li>
+                    <li><a class="navknop" href="../Over%20Ons/overons.html">Over ons</a></li>
+                    <li><a class="navknop" href="../Sportpagina/sport.html">Sportpagina</a></li>
+                    <li><a class="navknop" href="../Recepten/recept.html">Receptenpagina</a></li>
+                    <li><a class="navknop" href="../Concerten/concert.html">Concerten</a></li>
+                </ul>
+            </nav>
+            <img src="img/important_devices-black-18dp_1.svg" width="30px" height="30px" alt="icon">
+            <img src="img/menu.png" class="menu-icon" onclick="menutoggle()" alt="menu">
+        </div>
+
+        <div class="row">
+            <div class="col-2">
+                <h1>Nieuws uit almere<br></h1>
+                <p>Laatse nieuws voor jou</p>
+                <a href="#push" class="btn">Ondek nu &#8594;</a>
+            </div>
+
+            <div class="col-2">
+                <img src="img/Almere.png" alt="almere">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="categories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="img/verkleinde-foto-almere-centrum.png">
+            </div>
+            <div class="col-3">
+                <img src="img/Fidata-Almere-stad.png">
+            </div>
+            <div class="col-3">
+                <img src="img/archi-wandeling-foto-3.png ">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----- echte nieuws -------->
+<div class="small-container" id="push">
+    <h2 class="title">Laatse nieuws</h2>
+</div>
+<section id="informatie">
+    <h3>Nieuws</h3>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Ut semper ullamcorper sapien et dapibus. Aliquam quam odio, scelerisque vel dolor a, tristique elementum justo.
+    In auctor magna in purus sollicitudin, non ultrices ligula suscipit. Praesent ac volutpat quam.
+    Nunc tempor massa et eros finibus dignissim. Mauris et ipsum porttitor, imperdiet ex eu, maximus nisi.
+    Quisque tempus porta eleifend. Suspendisse bibendum, mi id auctor viverra, lorem ipsum efficitur dolor,
+    ac bibendum erat sapien vitae neque. Sed tincidunt lobortis diam id pellentesque. Pellentesque nec felis et elit imperdiet auctor.
+    tesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+    In posuere massa enim, vitae egestas erat gravida et. Mauris velit neque, varius vel erat non, hendrerit mattis velit.
+    In hac habitasse platea dictumst. Nullam lacinia semper ex, vitae ornare purus commodo vitae. Praesent ornare tempor finibus.
+    Cras cursus molestie leo feugiat scelerisque. Donec auctor neque mauris. Suspendisse cursus, nisl sed feugiat malesuada, lacus leo porta elit, sollicitudin sagittis justo ex eget risus.
+</section>
+<section id="informate">
+    <article>
+        <h3>Almere city</h3>
+        <img class="img2" src="img/logo-main2.png">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Ut semper ullamcorper sapien et dapibus. Aliquam quam odio, scelerisque vel dolor a, tristique elementum justo.
+            In auctor magna in purus sollicitudin, non ultrices ligula suscipit. Praesent ac volutpat quam.
+            Nunc tempor massa et eros finibus dignissim. Mauris et ipsum porttitor, imperdiet ex eu, maximus nisi.
+            Quisque tempus porta eleifend. Suspendisse bibendum, mi id auctor viverra, lorem ipsum efficitur dolor,
+            ac bibendum erat sapien vitae neque. Sed tincidunt lobortis diam id pellentesque.
+            Pellentesque nec felis et elit imperdiet auctor.
+            tesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+            In posuere massa enim, vitae egestas erat gravida et. Mauris velit neque, varius vel erat non,
+            hendrerit mattis velit. In hac habitasse platea dictumst. Nullam lacinia semper ex, vitae ornare purus commodo vitae.
+            Praesent ornare tempor finibus. Cras cursus molestie leo feugiat scelerisque. Donec auctor neque mauris. Suspendisse cursus,
+            nisl sed feugiat malesuada, lacus leo porta elit, sollicitudin sagittis justo ex eget risus.
+            In posuere massa enim, vitae egestas erat gravida et. Mauris velit neque, varius vel erat non, hendrerit mattis velit.
+            In hac habitasse platea dictumst. Nullam lacinia semper ex, vitae ornare purus commodo vitae. Praesent ornare tempor finibus.
+            Cras cursus molestie leo feugiat scelerisque. Donec auctor neque mauris. Suspendisse cursus, nisl sed feugiat malesuada, lacus leo porta elit, sollicitudin sagittis justo ex eget risus.
+        </p>
+    </article>
+    <br>
+    <article>
+        <h3>Leger des Heils</h3>
+        <img class="img2" src="img/schild-2000.png">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Ut semper ullamcorper sapien et dapibus. Aliquam quam odio, scelerisque vel dolor a, tristique elementum justo.
+            In auctor magna in purus sollicitudin, non ultrices ligula suscipit. Praesent ac volutpat quam.
+            Nunc tempor massa et eros finibus dignissim. Mauris et ipsum porttitor, imperdiet ex eu, maximus nisi.
+            Quisque tempus porta eleifend. Suspendisse bibendum, mi id auctor viverra, lorem ipsum efficitur dolor,
+            ac bibendum erat sapien vitae neque. Sed tincidunt lobortis diam id pellentesque.
+            Pellentesque nec felis et elit imperdiet auctor.
+            tesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+            In posuere massa enim, vitae egestas erat gravida et. Mauris velit neque, varius vel erat non,
+            hendrerit mattis velit. In hac habitasse platea dictumst. Nullam lacinia semper ex, vitae ornare purus commodo vitae.
+            Praesent ornare tempor finibus. Cras cursus molestie leo feugiat scelerisque. Donec auctor neque mauris.
+            Suspendisse cursus, nisl sed feugiat malesuada, lacus leo porta elit, sollicitudin sagittis justo ex eget risus.
+            In posuere massa enim, vitae egestas erat gravida et. Mauris velit neque, varius vel erat non,
+            hendrerit mattis velit. In hac habitasse platea dictumst. Nullam lacinia semper ex, vitae ornare purus commodo vitae.
+            Praesent ornare tempor finibus. Cras cursus molestie leo feugiat scelerisque. Donec auctor neque mauris. Suspendisse cursus, nisl sed feugiat malesuada,
+            lacus leo porta elit, sollicitudin sagittis justo ex eget risus.
+        </p>
+    </article>
+    <br>
+    <article>
+        <h3>Verbouwing station</h3>
+        <img class="img2" src="img/gemeente-almere-1-logo-png-transparent.png">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Ut semper ullamcorper sapien et dapibus. Aliquam quam odio, scelerisque vel dolor a, tristique elementum justo.
+            In auctor magna in purus sollicitudin, non ultrices ligula suscipit. Praesent ac volutpat quam.
+            Nunc tempor massa et eros finibus dignissim. Mauris et ipsum porttitor, imperdiet ex eu, maximus nisi.
+            Quisque tempus porta eleifend. Suspendisse bibendum, mi id auctor viverra, lorem ipsum efficitur dolor,
+            ac bibendum erat sapien vitae neque. Sed tincidunt lobortis diam id pellentesque.
+            Pellentesque nec felis et elit imperdiet auctor.
+            tesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.In posuere massa enim,
+            vitae egestas erat gravida et. Mauris velit neque, varius vel erat non, hendrerit mattis velit. In hac habitasse platea dictumst.
+            Nullam lacinia semper ex, vitae ornare purus commodo vitae. Praesent ornare tempor finibus. Cras cursus molestie leo feugiat scelerisque.
+            Donec auctor neque mauris. Suspendisse cursus, nisl sed feugiat malesuada, lacus leo porta elit, sollicitudin sagittis justo ex eget risus.
+            In posuere massa enim, vitae egestas erat gravida et. Mauris velit neque, varius vel erat non, hendrerit mattis velit.
+            In hac habitasse platea dictumst. Nullam lacinia semper ex, vitae ornare purus commodo vitae. Praesent ornare tempor finibus.
+            Cras cursus molestie leo feugiat scelerisque. Donec auctor neque mauris. Suspendisse cursus, nisl sed feugiat malesuada, lacus leo porta elit,
+            sollicitudin sagittis justo ex eget risus.
+        </p>
+    </article>
+</section>
+
+
+    <!----- betrouwbaarheid ------>
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="img/omroep-flevoland_1.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>officiele partner van omroep flevond</p>
+                    <h1>Het beste nieuws uit almere</h1>
+                    <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Sed scelerisque suscipit dui, sed vulputate velit malesuada sit amet. Proin blandit semper purus non mollis.
+                        Aenean in efficitur elit, a tempor erat. Quisque ultricies diam pulvinar congue iaculis.</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!------ studenten ----->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorum Ipsum is simpley dummy text of the printing and typesetting industry.
+                        Lorum Ipsum has been the industry's standard dummy text over</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="img/user-1.png">
+                    <h3>Nienke Scholtens</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorum Ipsum is simpley dummy text of the printing and typesetting industry.
+                        Lorum Ipsum has been the industry's standard dummy text over</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="img/user-2.png">
+                    <h3>Mo Loops</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorum Ipsum is simpley dummy text of the printing and typesetting industry.
+                        Lorum Ipsum has been the industry's standard dummy text over</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="img/user-3.png">
+                    <h3>Sam van der echt</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--------- samenwerkers ------>
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="img/logo-main2.png">
+                </div>
+                <div class="col-5">
+                    <img src="img/gemeente-almere-1-logo-png-transparent.png">
+                </div>
+                <div class="col-5">
+                    <img src="img/Nederlandse_Spoorwegen_logo.svg.png">
+                </div>
+                <div class="col-5">
+                    <img src="img/omroep-flevoland_1.png">
+                </div>
+                <div class="col-5">
+                    <img src="img/EASY-FM-ALMERE-RADIO-LOGO.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!------footer----->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3> Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="img/play-store.png">
+                        <img src="img/app-store.png">
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="img/Almere-logo1.png">
+                        <p>Onze doel is om alle studenten op tijd nuttigen nieuws te leveren</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer-col-3">
+            <h3>Handige Links</h3>
             <ul>
-                <li>
-                <a href="index.html">Home</a>
-                <a href="#">Concerten</a>
-                <a href="../Sportpagina/sport.html">Sport</a>
-                <a href="#">Recepten</a>
-                <a href="#">Contact</a>
-                </li>
+                <li>Coupens</li>
+                <li>Blog Post</li>
+                <li>Return Policy</li>
+                <li>Join Affiliate</li>
             </ul>
+        </div>
+        <div class="footer-col-4">
+            <h3>Follow us</h3>
+            <ul>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>Youtube</li>
+            </ul>
+        </div>
+    </div>
 
-        </nav>
-    </div>
-</header>
-<main>
-    <div class="Main">
-        <h1>Nieuws uit Almere Buiten</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque efficitur tristique ligula,
-            eget commodo eros lobortis vitae. Nullam in congue orci, nec imperdiet lectus. Sed accumsan mattis urna,
-            vitae aliquam nulla condimentum eget. Aliquam suscipit condimentum odio non eleifend.
-            Aenean ut eros sed tellus vulputate accumsan vel ac nibh. In hac habitasse platea dictumst.
-            Duis id tellus diam.</p>
-    </div>
-</main>
+    <hr>
+    <p class="copyright">Copyright © roc-dev.com 2020</p>
+
+    <!-------js for toggle menu-------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function  menutoggle(){
+            if(MenuItems.style.maxHeight === "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+
+</section>
 </body>
 </html>
