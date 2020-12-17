@@ -406,6 +406,9 @@ ul{
     html {
         overflow-x: hidden;
     }
+    .title {
+        margin-top: 5rem;
+    }
 }
 
 /*media for menu less than 600 screen size*/
